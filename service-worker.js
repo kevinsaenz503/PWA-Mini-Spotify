@@ -1,13 +1,13 @@
 const CACHE_NAME =
-"mini-spotify-v4";
+"mini-spotify-v5";
 
 const FILES = [
 
-    "/",
-    "/css/style.css",
-    "/js/app.js",
-    "/manifest.webmanifest",
-    "/api/songs"
+    "./",
+    "./css/style.css",
+    "./js/app.js",
+    "./manifest.webmanifest",
+    "./api/songs"
 
 ];
 
@@ -30,11 +30,11 @@ self.addEventListener("install", event => {
             for(const song of songs){
 
                 await cache.add(
-                    "/songs/" + song.file
+                    "./songs/" + song.file
                 );
 
                 await cache.add(
-                    "/covers/" + song.cover
+                    "./covers/" + song.cover
                 );
 
             }
