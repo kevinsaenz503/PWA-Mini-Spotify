@@ -106,9 +106,13 @@ function renderSongs(){
 
         card.innerHTML = `
 
-        <img
-        src="./covers/${song.cover}"
-        class="cover">
+<div class="song-row">
+
+    <img
+    src="./covers/${song.cover}"
+    class="cover">
+
+    <div class="song-info">
 
         <h3>${song.title}</h3>
 
@@ -122,7 +126,11 @@ function renderSongs(){
 
         </button>
 
-        `;
+    </div>
+
+</div>
+
+`;
 
         songsDiv
         .appendChild(card);
@@ -544,17 +552,29 @@ document
 
             card.innerHTML = `
 
-                <img
-                src="./covers/${song.cover}"
-                class="cover">
+               <div class="song-row">
 
-                <h3>
-                    ${song.title}
-                </h3>
+    <img
+    src="./covers/${song.cover}"
+    class="cover">
 
-                <p>
-                    ${song.artist}
-                </p>
+    <div class="song-info">
+
+        <h3>${song.title}</h3>
+
+        <p>${song.artist}</p>
+
+        <button
+        class="play-song"
+        onclick="playSong(${index})">
+
+        ▶ Reproducir
+
+        </button>
+
+    </div>
+
+</div>
 
                 <button
                 class="play-song"
