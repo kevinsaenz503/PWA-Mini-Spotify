@@ -54,7 +54,7 @@ localStorage.getItem(
 
 /* CARGAR CANCIONES */
 
-fetch("/api/songs")
+
 .then(response => response.json())
 .then(data => {
 
@@ -115,7 +115,7 @@ function renderSongs(){
         card.innerHTML = `
 
         <img
-        src="/covers/${song.cover}"
+        src="./covers/${song.cover}"
         class="cover">
 
         <h3>${song.title}</h3>
@@ -149,7 +149,7 @@ function playSong(index){
     songs[index];
 
     player.src =
-    "/songs/" +
+    "./songs/" +
     song.file;
 
     player.play();
@@ -162,7 +162,7 @@ function playSong(index){
     song.artist;
 
     currentCover.src =
-    "/covers/" +
+    "./covers/" +
     song.cover;
 
     loadFavorite();
@@ -472,7 +472,7 @@ function renderFavorites(){
             card.innerHTML = `
 
             <img
-            src="/covers/${song.cover}"
+            src="./covers/${song.cover}"
             class="cover">
 
             <h3>
@@ -553,7 +553,7 @@ document
             card.innerHTML = `
 
                 <img
-                src="/covers/${song.cover}"
+                src="./covers/${song.cover}"
                 class="cover">
 
                 <h3>
@@ -653,7 +653,7 @@ in navigator
     navigator
     .serviceWorker
     .register(
-        '/service-worker.js'
+        './service-worker.js'
     )
     .then(reg => {
 
