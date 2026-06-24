@@ -17,12 +17,14 @@ const FILES = [
     "./songs/cancioncitas.mp3",
     "./songs/rey-sin-reina.mp3",
     "./songs/oye-traicionera.mp3",
+    "./songs/las espinas.mp3",
 
     "./covers/space_song.jpg",
     "./covers/olvidarte.jpg",
     "./covers/cancioncitas.jpg",
     "./covers/rey-sin-reina.jpg",
-    "./covers/traicionera.jpg"
+    "./covers/traicionera.jpg",
+    "./covers/las espinas.jpg",
 
 ];
 
