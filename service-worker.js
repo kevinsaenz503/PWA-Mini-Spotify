@@ -12,14 +12,14 @@ const FILES = [
     "./img/icono-192.png",
     "./img/icono-512.png",
 
-    "./songs/space_song.mp3",
+    "./songs/Mentirosa Bonita y Mentirosa.mp3",
     "./songs/olvidarte.mp3",
     "./songs/cancioncitas.mp3",
     "./songs/rey-sin-reina.mp3",
     "./songs/oye-traicionera.mp3",
     "./songs/las espinas.mp3",
 
-    "./covers/space_song.jpg",
+    "./covers/bonita-y-mentirosa.jpg",
     "./covers/olvidarte.jpg",
     "./covers/cancioncitas.jpg",
     "./covers/rey-sin-reina.jpg",
