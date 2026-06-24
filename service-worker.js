@@ -1,4 +1,4 @@
-const CACHE_NAME = "mini-spotify-v6";
+const CACHE_NAME = "mini-spotify-v7";
 
 const FILES = [
 
