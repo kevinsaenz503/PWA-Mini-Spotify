@@ -28,6 +28,11 @@ window.songs = [
         artist: "Crooked Stilo",
         file: "oye-traicionera.mp3",
         cover: "traicionera.jpg"
+    },
+{
+        title: "No Pude Quitarte las Espinas",
+        artist: "Los Toros Band",
+        file: "las espinas.mp3",
+        cover: "traicionera.jpg"
     }
-
 ];
