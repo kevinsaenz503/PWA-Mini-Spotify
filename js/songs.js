@@ -2,7 +2,7 @@ window.songs = [
     {
         title: "Bonita y Mentirosa",
         artist: "Crooked Stilo",
-        file: "Mentirosa Bonita y Mentirosa.mp3",
+        file: "Mentirosa Bonita Y Mentirosa.mp3",
         cover: "bonita-y-mentirosa.jpg"
     },
     {
