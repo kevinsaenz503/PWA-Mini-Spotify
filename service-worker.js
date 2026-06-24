@@ -18,6 +18,10 @@ const FILES = [
     "./songs/rey-sin-reina.mp3",
     "./songs/oye-traicionera.mp3",
     "./songs/las espinas.mp3",
+    "./songs/te-vas.mp3",
+    "./songs/Como Llora Mi Alma.mp3",
+    "./songs/El Perdedor.mp3",
+    "./songs/Chismofilia.mp3",
 
     "./covers/bonita-y-mentirosa.jpg",
     "./covers/olvidarte.jpg",
@@ -25,6 +29,10 @@ const FILES = [
     "./covers/rey-sin-reina.jpg",
     "./covers/traicionera.jpg",
     "./covers/las espinas.jpg",
+    "./covers/te-vas.jpg",
+    "./covers/como-llora-mi-alma.jpg",
+    "./covers/el-perdedor.jpg",
+    "./covers/salucita.jpg",
 
 ];
 
