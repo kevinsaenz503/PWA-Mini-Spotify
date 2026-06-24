@@ -12,7 +12,7 @@ const FILES = [
     "./img/icono-192.png",
     "./img/icono-512.png",
 
-    "./songs/Mentirosa Bonita y Mentirosa.mp3",
+    "./songs/Mentirosa Bonita Y Mentirosa.mp3",
     "./songs/olvidarte.mp3",
     "./songs/cancioncitas.mp3",
     "./songs/rey-sin-reina.mp3",
