@@ -12,7 +12,7 @@ window.songs = [
         cover: "olvidarte.jpg"
     },
     {
-        title: "Cancioncitas",
+        title: "Cancioncitas de Amor",
         artist: "Romeo Santos",
         file: "cancioncitas.mp3",
         cover: "cancioncitas.jpg"
@@ -33,6 +33,6 @@ window.songs = [
         title: "No Pude Quitarte las Espinas",
         artist: "Los Toros Band",
         file: "las espinas.mp3",
-        cover: "traicionera.jpg"
+        cover: "las espinas.jpg"
     }
 ];
